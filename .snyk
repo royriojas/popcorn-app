@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - request > mime:
+        patched: '2018-07-02T07:25:13.920Z'
+    - popcornflix > mime:
+        patched: '2018-07-02T07:25:13.920Z'
+    - popcornflix > read-torrent > request > mime:
+        patched: '2018-07-02T07:25:13.920Z'
+    - popcornflix > read-torrent > request > form-data > mime:
+        patched: '2018-07-02T07:25:13.920Z'
+    - express > accepts > mime:
+        patched: '2018-07-02T07:25:13.920Z'
+    - express > type-is > mime:
+        patched: '2018-07-02T07:25:13.920Z'
+    - express > send > mime:
+        patched: '2018-07-02T07:25:13.920Z'
+    - express > serve-static > send > mime:
+        patched: '2018-07-02T07:25:13.920Z'
